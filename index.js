@@ -53,7 +53,7 @@ Aşağıdakileri yaparak carpma isimli fonksiyonu tamamla:
 */
 
 function carpma(num1,num2) {
-  return result = num1*num2
+  return result  =num1*num2
 }
 carpma(7,4);
 console.log(carpma(7,4));
@@ -117,9 +117,10 @@ Aşağdaki milDonusturucu fonksiyonunu aşağıdakileri kullanarak tamamla:
 3. Mil değerini geri dönün
 */
 
-function milDonusturucu(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
-}
+function milDonusturucu(km) {
+  return km *0.621371
+ }
+ console.log("mil",milDonusturucu(10));
 
 //Görev 4b - Santimetreden Feet
 /*
@@ -131,9 +132,10 @@ Aşağıdakileri feetDonusturucu fonsiyonunu kullanarak yap:
 Google'da arama ipucu: "feet cm dönüştürme"
 */
 
-function feetDonusturucu(/*buraya kodunu yazabilirsin*/) {
-  /*buraya kodunu yazabilirsin*/
+function feetDonusturucu(cm) {
+  return cm * 30.48
 }
+console.log("feet", feetDonusturucu(160));
 
 /* Görev 5 : 5 küçük maymun yatakta zıplamış şarkısını çocuklar için hazırladığımı varsayalım. https://www.youtube.com/watch?v=e4EJ34xnlxk */
 
